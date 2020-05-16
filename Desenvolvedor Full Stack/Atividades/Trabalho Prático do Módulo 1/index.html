@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Aplicação para a visualização de cores a partir da escala RGB.">
+    <title>Trabalho Prático do Módulo 1</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    
+    <div id="amostra"></div>
+    <div id="controladores">
+        <label for="red">(R) Vermelho:</label>
+        <input id="red" class="range" type="range" max="255">
+        <input type="text" id="red_value" disabled="disabled">
+        <label for="green">(G) Verde:</label>
+        <input id="green" class="range" type="range" max="255">
+        <input type="text" id="green_value" disabled="disabled">
+        <label for="blue">(B) Azul:</label>
+        <input id="blue" class="range" type="range" max="255">
+        <input type="text" id="blue_value" disabled="disabled">
+    </div>
 </body>
 </html>
