@@ -27,7 +27,7 @@ function appInit() {
 
         colorChange();
 
-        input.addEventListener('change', function () {
+        input.addEventListener('input', function () {
             this.fieldValue.value = this.value;
             document.dispatchEvent( new Event('colorchange') );
         }); 
