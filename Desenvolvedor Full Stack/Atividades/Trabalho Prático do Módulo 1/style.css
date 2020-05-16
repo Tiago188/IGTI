@@ -52,3 +52,43 @@ label {
     line-height: 5vw;
     width: 30%;
 }
+
+@media screen and (max-width: 640px) {
+    #amostra {
+        height: 100vw;
+        width: 100%;
+    }
+    #controladores {
+        width: 92vw;
+    }
+
+    label {
+        font-weight: bold;
+        visibility: hidden;
+        width: 10%;
+    }
+    label::before {
+        visibility: visible;
+    }
+
+    label[for=red]::before {
+        color: red;
+        content: "R";
+    }
+    label[for=green]::before {
+        color: green;
+        content: "G";
+    }
+    label[for=blue]::before {
+        color: blue;
+        content: "B";
+    }
+
+    #controladores input[type="range"] {
+        width: 74%;
+    }
+
+    #controladores input[type="text"] {
+        font-size: 4.5vw;
+    }
+}
