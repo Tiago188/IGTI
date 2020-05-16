@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+#amostra {
+    background-color: #000;
+    float: left;
+    height: 34vw;
+    width: 34vw;
+}
+
+#controladores {
+    background-color:gray;
+    float: left;
+    height: 26vw;
+    padding: 4vw;
+    width: 58vw;
+}
+
+#controladores input[type="text"], 
+label {
+    color: #FFF;
+    font-weight: bold;
+}
+
+#controladores input[type="range"], 
+#controladores input[type="text"], 
+label {
+    border: none;
+    display: block;
+    float: left;
+    height: 5vw;
+    margin: 2vw 0;
+}
+
+#controladores input[type="range"] {
+    width: 54%;
+}
+
+#controladores input[type="text"] {
+    background-color: transparent;
+    font-size: 3vw;
+    margin-left: 2%;
+    text-align: center;
+    width: 14%;
+}
+
+label {
+    clear: left;
+    line-height: 5vw;
+    width: 30%;
+}
