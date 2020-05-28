@@ -17,7 +17,5 @@ function loadData(params) {
 }
 
 function showUser(user) {
-    const divUser = document.querySelector('#user-data');
-
-    divUser.textContent = user.login + ' ' + user.name;
+    ElementFill.load(user);
 }
