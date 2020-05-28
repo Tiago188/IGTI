@@ -1,0 +1,16 @@
+.autocomplete-row {
+    display: flex;
+}
+
+.input-field {
+    flex: 1 0 auto;
+}
+
+.autocomplete-btn {
+    flex: 1 0 50px;
+    margin: 1rem 0;
+}
+
+.autocomplete-btn .material-icons {
+    margin-left: 0;
+}
